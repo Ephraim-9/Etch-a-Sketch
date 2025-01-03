@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.square {
+    height: 5.9vh;
+    aspect-ratio: 1 / 1;
+    background-color: aliceblue;
+    border: 1px solid;
+}
+.col {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
